@@ -1,0 +1,23 @@
+import turtle
+
+my_turtle = turtle.Turtle()
+
+# Set the turtle's pen color
+my_turtle.pencolor("black")
+
+# Set the star's fill color
+my_turtle.fillcolor("yellow")
+
+# Begin filling the star
+my_turtle,begin_fill()
+
+# Draw the star
+for i in range(6):
+    my_turtle.forward(100)
+    my_turtle.left(144)
+
+# End filling the star
+my_turtle.end_fill()
+
+# Keep the turtle window open
+turtle.done()
